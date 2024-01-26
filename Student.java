@@ -42,6 +42,9 @@ public class Student extends Person{
 
         return id;
     }
+    public String getPosition(){
+        return position;
+    }
 
     @Override
     public double getPaymentAmount() {

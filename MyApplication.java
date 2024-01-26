@@ -11,7 +11,7 @@ class Main {
     }
     public static void printData(Iterable<Person> People){
         for(Person a: People){
-            System.out.println(a.getPostion() +":"+ a.getId()+". "+ a.getName() + " "+ a.getSurname() + " earns " + a.getPaymentAmount() + " tenge");
+            System.out.println(a.getPosition() +":"+ a.getId()+". "+ a.getName() + " "+ a.getSurname() + " earns " + a.getPaymentAmount() + " tenge");
         }
     }
 }
