@@ -28,7 +28,7 @@ public class Student extends Person{
     }
     public String getName(){
 
-        return surname;
+        return name;
     }
     public String getSurname(){
 
@@ -41,9 +41,6 @@ public class Student extends Person{
     public int getId(){
 
         return id;
-    }
-    public String getPosition(){
-        return position;
     }
 
     @Override

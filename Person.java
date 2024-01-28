@@ -41,8 +41,9 @@ public abstract class Person implements Payable {
                 ", surname='" + surname + '\'' +
                 '}';
     }
-    public abstract String getPosition();
+    public String getPosition(){
+        return "Student";
+    }
 
-    @Override
-    public abstract double getPaymentAmount();
+
 }
